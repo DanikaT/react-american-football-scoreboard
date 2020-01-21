@@ -4,6 +4,13 @@ import "./App.css";
 import BottomRow from "./BottomRow";
 
 function App() {
+  const [lionsScore, setLionsScore] = useState({
+    home: 0,
+  
+  });
+  const [tigersScore, setTigersScore] = useState({
+    away: 0
+  });
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
 
   return (
